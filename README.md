@@ -15,13 +15,14 @@ This repository contains the code used in my project thesis. In this project the
 ## Getting Started
 
 1. Clone this repository: `git clone https://github.com/Markutr/ProjectThesis.git`
-2. Install the required R packages (check the imported packages in the provided R-scripts): `install.packages(c("INLA", "MakeMyPrior", ...))`
-3. Move the data to the appropriate location: 
-4. Run the provided scripts to reproduce the analysis: `...`
+2. Install the required R packages (check the imported packages in the provided scripts in the folder named "r"): `install.packages(c("INLA", "MakeMyPrior", ...))`
+3. Set appropriate working directory (modify in each script): `setwd("path to cloned repository")`
+5. Move the data to the appropriate location: /data
+6. Run the provided scripts in the follwing order to reproduce the analysis: dataProcessing.R, inference.R and then makePlots.R
 
 ## Acknowledgments
 
-I express my gratitude to the contributors of R-INLA and MakeMyPrior, my supervisor for excellent guidance, and the authors of Slater et al (2022) for supplying me with the data and code used in their paper.
+I express my gratitude to the contributors of R-INLA and MakeMyPrior, my supervisor Andrea Riebler for excellent guidance, and the authors of Slater et al (2022) for supplying me with the data and code used in their paper.
 
 ## References
 
